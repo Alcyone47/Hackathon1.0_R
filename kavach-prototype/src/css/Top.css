@@ -1,0 +1,47 @@
+.top__main{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0.75vw 2vw 1vw 2vw;
+    font-size: larger;
+}
+
+.top__left, .top__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top__right{
+    justify-content: flex-end;
+}
+
+.top__left img{
+    width: 7.5vw;
+    margin-right: 1.5vw;
+    min-width: 50px;
+}
+
+.top__right img{
+    width: 2vw;
+    min-width: 20px;
+}
+
+.top__right button{
+    padding: 12.5px 15px;
+    width: auto;
+    border: none;
+    outline: transparent 2px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0.5vw;
+    transition: all 0.15s ease-in-out;
+}
+
+.top__right button:hover{
+    outline: solid 3px #0099cc;
+}

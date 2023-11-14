@@ -5,6 +5,7 @@ import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"></link>
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path = "/" element = {<Login/>}/>
-          <Route path = "/Home" element = {<Home/>}/>
+          <Route path = "/home" element = {<Home/>}/>
         </Routes>
       </BrowserRouter>
     </>
