@@ -1,0 +1,67 @@
+.login__card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.login__logo{
+    width: 20vw;
+    margin-top: 10vh;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 8vh;
+}
+
+.login__card button{
+    width: 27.5vw;
+    background-color: #0099cc;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 3vh;
+    transition: all 0.15s ease-in-out;
+}
+
+.login__card button:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+    border: solid #000000 1px;
+}
+
+.form__field{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px black;
+    padding: 1em 0em 0.5em 0em;
+    justify-content: flex-start;
+}
+
+.form__img{
+    height: 5vh;
+    width: 15%;
+}
+
+.form__input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.25em;
+    transition: all 0.25s;
+}
+
+/* Focus effects test
+.user__field:focus-within{
+    outline: none;
+    border-color: #007bff; 
+}
+
+.pass__field:focus-within{
+    outline: none;
+    border-color: #007bff;
+} */
