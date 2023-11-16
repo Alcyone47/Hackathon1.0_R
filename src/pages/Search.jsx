@@ -9,7 +9,7 @@ function Search () {
       <Top/>
       <Navigator/>
       <div className='hero'>
-        <h2>Search Person's Name</h2>
+        <h2>Search By Case Number</h2>
         <div className='search__box'>
           <h2>Search By </h2>
           <input type="text" placeholder='Case Number'/>

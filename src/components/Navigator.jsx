@@ -28,7 +28,7 @@ const Navigator = () => {
   return (
     <div className='nav__layout'>
       <button onClick={toEnter}>ENTER</button>
-      <button onClick={toSearch}>SEARCH</button>
+      <button onClick={toSearch}>CASE NO.</button>
       <button onClick={toCdr}>CDR</button>
       <button onClick={toAccount}>BANK ACCOUNT</button>
       <button onClick={toAadhar}>AADHAR</button>
