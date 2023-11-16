@@ -1,0 +1,56 @@
+.layout{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    color: white;
+    padding: 0 2vw;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    color: black;
+    width: auto;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.search__box{
+    width: 90%;
+    background-color: #fff8db;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__box input{
+    width: auto;
+    font-size: 2em;
+    padding: 0.25em;
+    border: none;
+    background-color: #d9d9d980;
+    margin-bottom: 2em;
+}
+
+.search__box button{
+    color: black;
+    font-weight: bold;
+    background-color: #0099CC;
+    width: auto;
+    align-self: flex-end;
+    border: none;
+    font-size: 1.5em;
+    width: 200px;
+    height: 2em;
+}

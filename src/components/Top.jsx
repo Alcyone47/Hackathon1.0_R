@@ -1,7 +1,12 @@
 import React from 'react'
 import '../css/Top.css'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 function Top(){
+    const navigate = useNavigate();
+    function toHome(event){
+        navigate('/home');
+    }
     return(
         <div className='top__main'>
             <div className='top__left'>
@@ -11,7 +16,7 @@ function Top(){
             <div className='top__right'>
                 
                 <button>
-                    <img src=".\src\assets\ant-design_home-filled.png" alt="" />
+                    <img onClick={toHome} src=".\src\assets\ant-design_home-filled.png" alt="" />
                 </button>
 
                 <button>

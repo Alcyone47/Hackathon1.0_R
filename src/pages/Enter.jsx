@@ -1,9 +1,15 @@
 import React from 'react'
 import "../css/Enter.css"
+import Navigator from '../components/Navigator'
+import Top from '../components/Top'
 
 function Enter(){
     return (
-        <div><h1>Enter a nigga</h1></div>
+        <div className='layout'>
+            <Top/>
+            <Navigator/>
+        </div>
+        
     )
 }
 

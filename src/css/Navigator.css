@@ -7,10 +7,30 @@
     width: 100%;
     padding: 0 2vw 2vw;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav__content{
     background-color: #ffeeaa;
-    height: 3vw;
     min-height: 30px;
 }
+
+.nav__layout button{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.25em;
+    height: 2.5em;
+    background-color: #ffeeaa;
+    outline: 2px transparent;
+    border: none;
+    width: calc(20% - 20px);
+    transition: all 0.1s;
+}
+
+.nav__layout button:hover{
+    cursor: pointer;
+    color: #0288B5;
+    outline: 2px #ffdc51 solid;
+}   
