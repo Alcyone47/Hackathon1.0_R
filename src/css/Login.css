@@ -21,7 +21,7 @@
     width: 27.5vw;
     background-color: #0099cc;
     height: 6vh;
-    border: none;
+    border: solid 1px transparent;
     outline: none;
     border-radius: 5px;
     font-size: 3vh;
