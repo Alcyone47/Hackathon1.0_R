@@ -26,10 +26,10 @@ function Home(){
                 </div>
                 {/* Bottom stats */}
                 <div className='total__info'>
-                    <div className='total__item'>Total Cases</div>
-                    <div className='total__item'>Closed Cases</div>
-                    <div className='total__item'>Open Cases</div>
-                    <div className='total__item'>Solved Cases</div>
+                    <div className='total__item'>TOTAL CASES <br/>500</div>
+                    <div className='total__item'>CLOSED CASES <br />300 </div>
+                    <div className='total__item'>OPEN CASES <br />200</div>
+                    <div className='total__item'>SOLVED CASES <br />250</div>
                 </div>
             </div>
         </div>
