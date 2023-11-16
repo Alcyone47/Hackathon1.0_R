@@ -9,4 +9,138 @@
     width: auto;
     color: white;
     padding: 0 2vw;
+    margin-bottom: 50px;
+}
+
+.layout h2{
+    width: auto;   
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+}
+
+.input__card{
+    width: 90%;
+    height: auto;
+    background-color: #fff8db;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fileBtn{
+    width: calc(30% - 20px);
+}
+
+.input__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    font-size: 1.25em;
+    transition: all 0.1s;
+    outline: transparent solid 2px;
+    border: none;
+    background-color: #d9d9d980;
+    padding: 0.5em 0.75em;
+    margin-bottom: 1em;
+}
+
+.row__item{
+    width: calc(30% - 20px);
+}
+
+.number__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number__item{
+    width: calc(30% - 20px);
+    margin-right: 4%;
+}
+
+.oAddress{
+    width: 100%;
+    height: 2em;
+}
+
+.pAddress{
+    width: 100%;
+    height: 5em;
+}
+
+.gender__opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gender__input{
+    width: calc(30% - 20px);
+    font-weight: 100;
+    color: white;
+    padding: 0.5em 0.75em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gender__input h3{
+    width: fit-content;
+    margin: 0px 20px 0 0;
+}
+
+.gender__input input{
+    width: fit-content;
+    margin: 0;
+}
+
+h4{
+    margin: 0 0 0 10px;
+}
+
+.radio__btn{
+    align-self: center;
+}
+
+input:hover{
+    outline: #ffd325 solid 2px;
+    border-radius: 2px;
+}
+
+input:focus{
+    outline: rgb(96, 96, 96) 2px solid;
+    border-radius: 3px;
+}
+
+.input__card button{
+    color: black;
+    font-weight: bold;
+    background-color: #0099CC;
+    width: auto;
+    align-self: flex-end;
+    border: none;
+    font-size: 1.5em;
+    width: 200px;
+    height: 2em;
+    transition: all 0.2s;
+}
+
+.input__card button:hover{
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .input__card input {
+        width: calc(100% - 10px); 
+        margin: 10px;
+    }
 }
