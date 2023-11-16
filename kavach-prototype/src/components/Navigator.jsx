@@ -3,7 +3,10 @@ import "../css/Navigator.css"
 
 const Navigator = () => {
   return (
-    <div>Navigator</div>
+    <div className='nav__layout'>
+      <div className='nav__content'>Navigator</div>
+    </div>
+    
   )
 }
 

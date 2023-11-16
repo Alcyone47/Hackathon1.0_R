@@ -1,3 +1,16 @@
 *{
     color: black;
 }
+
+.nav__layout{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2vw;
+    height: auto;
+}
+
+.nav__content{
+    background-color: #ffeeaa;
+    height: 3vw;
+    min-height: 30px;
+}
