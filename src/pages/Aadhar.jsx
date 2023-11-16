@@ -13,7 +13,7 @@ const Aadhar = () => {
         <h2>Search Aadhar Details</h2>
         <div className='search__box'>
           <h2>Search By </h2>
-          <input type="text" placeholder=''/>
+          <input type="text" placeholder='Aadhar Number'/>
           <button>SEARCH</button>
         </div>
       </div>

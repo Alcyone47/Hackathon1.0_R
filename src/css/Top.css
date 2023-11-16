@@ -9,6 +9,20 @@
     font-size: larger;
 }
 
+.btn__icn{
+    width: auto;
+    height: auto;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: all 0.1s;
+}
+
+.btn__icn:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 .top__left, .top__right{
     display: flex;
     flex-direction: row;

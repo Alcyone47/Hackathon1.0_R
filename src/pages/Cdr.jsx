@@ -12,7 +12,7 @@ const Cdr = () => {
         <h2>Search Call Data Record</h2>
         <div className='search__box'>
           <h2>Search By </h2>
-          <input type="text" placeholder=''/>
+          <input type="text" placeholder='Phone Number'/>
           <button>SEARCH</button>
         </div>
       </div>

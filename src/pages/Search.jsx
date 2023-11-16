@@ -12,7 +12,7 @@ function Search () {
         <h2>Search Person's Name</h2>
         <div className='search__box'>
           <h2>Search By </h2>
-          <input type="text" placeholder=''/>
+          <input type="text" placeholder='Case Number'/>
           <button>SEARCH</button>
         </div>
       </div>

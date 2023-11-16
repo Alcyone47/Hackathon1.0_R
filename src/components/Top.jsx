@@ -10,7 +10,11 @@ function Top(){
     return(
         <div className='top__main'>
             <div className='top__left'>
-                <img className='top__img' src=".\src\assets\Asset 1logo4 1.png" alt=""/>
+
+                <button className='btn__icn' onClick={toHome}>
+                    <img className='top__img' src=".\src\assets\Asset 1logo4 1.png" alt=""/>
+                </button>
+                
                 <h3>POLICE INVESTIGATION DATA MANAGEMENT</h3>
             </div>
             <div className='top__right'>

@@ -36,11 +36,22 @@
 
 .search__box input{
     width: auto;
-    font-size: 2em;
-    padding: 0.25em;
+    font-size: 1.5em;
+    padding: 0.5em 0.75em;
     border: none;
     background-color: #d9d9d980;
     margin-bottom: 2em;
+    transition: all 0.1s;
+    outline: transparent solid 2px;
+}
+
+.search__box input:hover{
+    outline: #ffd325 solid 2px;
+    border-radius: 2px;
+}
+
+.search__box input:focus{
+    outline: black 2px solid;
 }
 
 .search__box button{
@@ -53,4 +64,13 @@
     font-size: 1.5em;
     width: 200px;
     height: 2em;
+    transition: all 0.2s;
+}
+
+.search__box button:hover{
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
 }
