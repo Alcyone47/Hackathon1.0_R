@@ -40,8 +40,8 @@ function Enter(){
                 </div>
                 <h2>Call Detail Records</h2>
                 <div className='number__row'>
-                    <input className='number__item' type="number" name="" id="" placeholder='Phone Number'/>
-                    <input className='number__item' type="number" name="" id="" placeholder='Phone Number'/>
+                    <input className='number__item' type="" name="" id="" placeholder='Phone Number'/>
+                    <input className='number__item' type="" name="" id="" placeholder='Phone Number'/>
                 </div>
                 <h2>Bank Account</h2>
                 <div className='number__row'>
