@@ -12,9 +12,13 @@ Currently, two official plugins are available:
 
 Team Name: Kavaj 
 Project Name: Police investigation data management system(PIDM)
-Description: PIDM is an application that allows users to manage their police investigations by creating new cases, viewing existing cases, editing case details.
+Description: PIDM is an web application that allows users to manage their police investigations by creating new cases, viewing existing cases, editing case details,storing and securing data.
 
 step 1 install node.js
 step 2 open terminal in Visual studio Code IDE
 step 3 give command "npm install"
 step 4 give command "npm run dev"
+
+login credentials: 
+username - Vikram
+password - vikram@123
