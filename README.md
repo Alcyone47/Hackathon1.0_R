@@ -16,5 +16,5 @@ Description: PIDM is an application that allows users to manage their police inv
 
 step 1 install node.js
 step 2 open terminal in Visual studio Code IDE
-step 3 give command "npm install react"
+step 3 give command "npm install"
 step 4 give command "npm run dev"
