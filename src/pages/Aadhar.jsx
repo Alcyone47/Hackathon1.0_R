@@ -19,6 +19,6 @@ const Aadhar = () => {
       </div>
     </div>
   )
-}
+  }
 
 export default Aadhar

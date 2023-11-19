@@ -18,6 +18,6 @@ const Cdr = () => {
       </div>
     </div>
   )
-}
+  }
 
 export default Cdr
